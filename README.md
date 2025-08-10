@@ -33,7 +33,7 @@ composer install
 ```
 
 ### 3. Set Up Database
-1. **Run the database setup **:
+1. **Run the database setup ** :  
    Execute the following sql to create the database and tables :
    ```sql
    tasks_db.sql
@@ -71,11 +71,11 @@ composer install
 ---
 
 ### 6. Start the Application
-1. Place the project in your web server's root directory (e.g., `htdocs` for XAMPP).
+1. Place the project in your web server's root directory (e.g., `www` for WAMP).
 2. Start your web server.
 3. Access the app in your browser:
    ```
-   http://localhost/todo-app/index.php
+   http://localhost/To-Do-List/index.php
    ```
 
 ---
@@ -110,7 +110,7 @@ todo-app/
 ---
 
 ## Troubleshooting
-- **Database Connection Error**: If you see an error about the database connection, ensure you've run the `setup_database.php` script and updated the credentials in `db.php`.
+- **Database Connection Error**: If you see an error about the database connection, execute the sql `tasks_db.sql`  and updated the credentials in `db.php`.
 - **Email Sending Error**: Check the following:
    - SMTP server settings in `send_mailer.php` are correct.
    - Email credentials are valid (use an app password for Gmail).
@@ -123,7 +123,7 @@ todo-app/
 This project is open-source and available under the MIT License.
 
 ---
-## authentification page
+## Authentification page
 <img width="1366" height="633" alt="localhost_To-Do-List_login php" src="https://github.com/user-attachments/assets/1975f4bd-fea6-4c47-b824-a2959fbef23b" />
 
 ---
@@ -133,6 +133,10 @@ This project is open-source and available under the MIT License.
 ---
 ## 
 <img width="1366" height="633" alt="localhost_To-Do-List_index php" src="https://github.com/user-attachments/assets/f3475bdc-1746-4a9d-965a-073309032c74" />
+
+---
+## Send mail
+<img width="984" height="342" alt="Screenshot 2025-08-10 165643" src="https://github.com/user-attachments/assets/3ca8da84-f38c-4988-881b-6d21292cff7f" />
 
 
 ```
