@@ -36,11 +36,11 @@ Install the required dependencies using Composer:
 composer install
 ```
 
-### 3. Set Up the Database
-1. **Run the database setup script**:
-   Execute the following command to create the database and tables automatically:
-   ```bash
-   php setup_database.php
+### 3. Set Up Database
+1. **Run the database setup **:
+   Execute the following sql to create the database and tables :
+   ```sql
+   tasks_db.sql
    ```
    This will:
    - Create a database named `tasks_db`.
@@ -127,4 +127,16 @@ todo-app/
 This project is open-source and available under the MIT License.
 
 ---
+## authentification page
+<img width="1366" height="633" alt="localhost_To-Do-List_login php" src="https://github.com/user-attachments/assets/1975f4bd-fea6-4c47-b824-a2959fbef23b" />
+
+---
+## Registration page
+<img width="1366" height="633" alt="localhost_To-Do-List_register php" src="https://github.com/user-attachments/assets/2728e1b5-c725-4d3f-a7c3-36dfa23163f7" />
+
+---
+## 
+<img width="1366" height="633" alt="localhost_To-Do-List_index php" src="https://github.com/user-attachments/assets/f3475bdc-1746-4a9d-965a-073309032c74" />
+
+
 ```
