@@ -1,9 +1,5 @@
 # To-Do App by Othman 
 
-This is a simple yet functional To-Do application built with PHP and MySQL. It allows users to manage their tasks effectively by adding, completing, and deleting them. Additionally, the app sends email notifications whenever a new task is created, using PHPMailer.
-
----
-
 ## Features
 - Add new tasks to your to-do list.
 - Mark tasks as completed.
