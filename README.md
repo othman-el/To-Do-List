@@ -131,7 +131,7 @@ This project is open-source and available under the MIT License.
 <img width="1366" height="633" alt="localhost_To-Do-List_register php" src="https://github.com/user-attachments/assets/2728e1b5-c725-4d3f-a7c3-36dfa23163f7" />
 
 ---
-## 
+## Task management
 <img width="1366" height="633" alt="localhost_To-Do-List_index php" src="https://github.com/user-attachments/assets/f3475bdc-1746-4a9d-965a-073309032c74" />
 
 ---
