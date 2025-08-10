@@ -13,12 +13,12 @@ function sendEmail($to, $subject, $body){
         $mail->isSMTP();
         $mail->Host       = 'smtp.gmail.com'; // Update to your SMTP server
         $mail->SMTPAuth   = true;
-        $mail->Username   = ''; // Your email address
-        $mail->Password   = '';
+        $mail->Username   = 'your-email@gmail.com'; // Your email address
+        $mail->Password   = 'your-app-password';
         $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
         $mail->Port       = 587;
 
-        $mail->setFrom('', 'To-Do List');
+        $mail->setFrom('your-email@gmail.com', 'To-Do List');
         $mail->addAddress($to);
 
         $mail->isHTML(true);
